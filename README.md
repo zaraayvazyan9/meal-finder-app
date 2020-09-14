@@ -11,7 +11,7 @@ Following features should be present in the app:
 
 ## Following api could be used for free:
 
-!!! need help here !!!
+Haven't chosen yet !!!
 
 
 ## What we're practising here
