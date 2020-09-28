@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meal Finder App</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+  </head>
+  <body>
+    <!-- Top Navigation Menu starts -->
+    <nav class="topnav">
+      <div class="active">
+        <a href="#"
+          >Mealoftheday.com
+          <svg class="lnr lnr-dinner">
+            <use xlink:href="#lnr-dinner"></use>
+          </svg>
+        </a>
+      </div>
+      <div id="myLinks">
+        <a href="about.html">About us</a>
+        <a href="#contact">Contact us</a>
+        <a href="#about">Skills</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <svg class="lnr lnr-menu">
+          <use xlink:href="#lnr-menu"></use>
+        </svg>
+      </a>
+    </nav>
+    <!-- Top Navigation Menu ends -->
+    <!-- Banner section starts -->
+    <div class="banner">
+      <div class="banner-text">
+        <h1>Hungry? No Cooking Ideas?</h1>
+        <h2>We Are Here To Help You!</h2>
+      </div>
+      <div class="search">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Find a Meal.." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div>
+        <br />
+        <hr style="width: 30%" />
+      </div>
+    </div>
+    <!-- Banner section ends -->
+    <!-- Category container section starts -->
+    <div class="category">
+      <h2>Search by Category</h2>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_1280.jpg"
+            alt="meat"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Meat</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/02/14/17/23/united-kingdom-2066475_1280.jpg"
+            alt="SeaFood"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>SeaFood</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/09/15/19/24/salad-1672505_1280.jpg"
+            alt="salad"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Salad</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/09/26/18/17/pumpkin-soup-3705294_1280.jpg"
+            alt="Soup"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Soup</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/09/14/14/33/cupcake-2749204_1280.jpg"
+            alt="Dezerts"
+            class="card-img"
+          />
+          <div class="card-body">
+            <h3>Dezert</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Category container section ends -->
+    <!-- Most popular container section starts -->
+    <div class="category">
+      <h2>Most Popular dishes</h2>
+      <div class="articles">
+        <article>
+          <img
+            src="https://cdn.pixabay.com/photo/2017/01/23/15/36/eat-2002918_1280.jpg"
+          />
+          <h2>Steak</h2>
+          <p>Text</p>
+          <div class="tags">
+            <span class="article-tag">#steak</span>
+            <span class="article-tag">#tastyplate</span>
+          </div>
+        </article>
+        <article>
+          <img
+            src="https://cdn.pixabay.com/photo/2019/05/14/03/48/chicken-4201353_1280.jpg"
+          />
+          <h2>Avocado salad</h2>
+          <p>Avocado - Chicken salad ...bla bla bla</p>
+          <div class="tags">
+            <span class="article-tag">#avocadosalad</span>
+            <span class="article-tag">#chickensalad</span>
+          </div>
+        </article>
+        <article>
+          <img
+            src="https://cdn.pixabay.com/photo/2017/05/25/09/42/brownie-2342762_1280.jpg"
+          />
+          <h2>Brownie</h2>
+          <p>Brownie with ice cream ...bla bla bla</p>
+          <div class="tags">
+            <span class="article-tag">Brownie</span>
+            <span class="article-tag">#deliciosdezert</span>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Most popular container section ends -->
+    <!-- Newsletter starts -->
+    <div class="newsletter">
+      <div class="text">
+        <h2>Subscribe to our Newsletter</h2>
+      </div>
+      <div class="subscribe">
+        <form>
+          <label>
+            <input type="number" id="subscribe" placeholder="Email" />
+            <input type="Submit" value="submit" />
+          </label>
+        </form>
+      </div>
+    </div>
+    <!-- Newsletter ends -->
+
+    <!-- Social starts -->
+    <div class="social">
+      <div class="text">
+        <h2>Follow us:</h2>
+        <h5>Stay up to date & be part of our cummunity!</h5>
+      </div>
+      <div class="icons">
+        <a href="#"><img src="img/facebook.png" alt="facebook logo" /> </a>
+        <a href="#"
+          ><img src="img/instagram-sketched.png" alt="instagram logo"
+        /></a>
+      </div>
+    </div>
+    <!-- Social ends -->
+
+    <!-- Footer starts -->
+    <footer>
+      <div class="finish">
+        <span
+          >Mealoftheday.com
+          <svg class="lnr lnr-dinner">
+            <use xlink:href="#lnr-dinner"></use>
+          </svg>
+        </span>
+        <p>©Coppyright 2020</p>
+      </div>
+    </footer>
+    <!-- Footer ends-->
+  </body>
+</html>
