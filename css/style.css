@@ -1,0 +1,194 @@
+body {
+  font-family: fantasy;
+  color: rgb(44, 44, 44);
+}
+/* Icons styling */
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-dinner {
+  color: #000000;
+  font-size: 20px;
+}
+
+/* Menu styling  */
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: rgb(0, 0, 0);
+  padding: 14px 20px 0 20px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  height: 45px;
+  min-height: 45px;
+}
+
+.topnav a.icon {
+  background: #ffffff;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  font-weight: bolder;
+}
+
+.active {
+  background-color: #ffffff;
+  color: #0a0a0a;
+  text-align: center;
+}
+
+/* Banner styling */
+.banner {
+  width: 100%;
+  padding: 20px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/banner.jpeg");
+  background-position: center;
+  z-index: -1;
+  overflow: hidden;
+}
+.banner-text h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search form {
+  padding: 14px 16px;
+  font-size: 24px;
+}
+.search form input {
+  border-color: white;
+  border-radius: 40px;
+  border-style: none;
+  padding: 3px 10px 3px 9px;
+}
+.search form button {
+  color: grey;
+  background-color: transparent;
+  margin-left: -36px;
+  border-radius: 40px;
+  border-color: transparent;
+}
+/* Category card styling */
+.category h2 {
+  font-size: 28px;
+  padding-top: 20px;
+  padding-left: 12px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 9px 170px 15px;
+}
+
+.card-container .card {
+  border: solid 1px #f2f2f2;
+  margin: 5px;
+}
+
+.card-container .card .card-body {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.card-container .card img.card-img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+/* Most popular section styling */
+
+.articles article {
+  margin: 10px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+article p {
+  flex-grow: 1;
+}
+
+.tags {
+  padding: 10px 0;
+}
+
+.article-tag {
+  background-color: rgb(172, 170, 167);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+article img {
+  width: 100%;
+}
+
+/* Newsletter + Follow us stylings */
+.text {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: lighter;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  min-height: 120px;
+}
+.icons img {
+  height: 60px;
+  margin: 20px;
+}
+
+/* Footer styling  */
+footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  font-size: 12px;
+}
+footer span {
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+}
+.finish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .articles article {
+    width: 49%;
+  }
+}
