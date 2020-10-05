@@ -1,5 +1,4 @@
 body {
-  /* font-size: 40px; */
   font-family: fantasy;
   color: rgb(44, 44, 44);
 }
@@ -65,7 +64,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+  background-image: url("../images/banner.jpeg");
   background-position: center;
   z-index: -1;
   overflow: hidden;
