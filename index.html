@@ -8,6 +8,11 @@
     <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--search icon-->
   </head>
   <body>
     <!-- Top Navigation Menu starts -->
@@ -39,10 +44,11 @@
         <h2>We Are Here To Help You!</h2>
       </div>
       <div class="search">
-        <form>
-          <input type="text" placeholder="Find a Meal.." name="search" />
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+        <input id="searchText" type="text" placeholder="Find a Meal.." />
+        <button id="searchButton" type="submit">
+          <i id="searchIcon" class="fa fa-search"></i>
+        </button>
+      </div>
       </div>
       <div>
         <br />
@@ -50,6 +56,7 @@
       </div>
     </div>
     <!-- Banner section ends -->
+
     <!-- Category container section starts -->
     <div class="category">
       <h2>Search by Category</h2>
@@ -81,13 +88,8 @@
             <h3>Soup</h3>
           </div>
         </div>
-
-        <div class="card">
-          <img src="./images/cupcake.webp" alt="Dezerts" class="card-img" />
-          <div class="card-body">
-            <h3>Dezert</h3>
-          </div>
-        </div>
+        <br />
+        <hr style="width: 98%" />
       </div>
     </div>
     <!-- Category container section ends -->
@@ -99,7 +101,7 @@
           <img
             src="https://cdn.pixabay.com/photo/2017/01/23/15/36/eat-2002918_1280.jpg"
           />
-          <h2>Steak</h2>
+          <h3>Steak</h3>
           <p>Text</p>
           <div class="tags">
             <span class="article-tag">#steak</span>
@@ -110,7 +112,7 @@
           <img
             src="https://cdn.pixabay.com/photo/2019/05/14/03/48/chicken-4201353_1280.jpg"
           />
-          <h2>Avocado salad</h2>
+          <h3>Avocado salad</h3>
           <p>Avocado - Chicken salad ...bla bla bla</p>
           <div class="tags">
             <span class="article-tag">#avocadosalad</span>
@@ -121,7 +123,7 @@
           <img
             src="https://cdn.pixabay.com/photo/2017/05/25/09/42/brownie-2342762_1280.jpg"
           />
-          <h2>Brownie</h2>
+          <h3>Brownie</h3>
           <p>Brownie with ice cream ...bla bla bla</p>
           <div class="tags">
             <span class="article-tag">Brownie</span>
